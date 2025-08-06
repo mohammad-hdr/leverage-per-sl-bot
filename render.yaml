@@ -7,8 +7,8 @@ services:
       startCommand: python bot.py
       envVars:
           - key: BOT_TOKEN
-            value: 8112409738:AAFVnF5yYvvrTdQaF-6PMuliPrjV2a8WbSA
+            value: ‌BOT_TOKEN_HERE
           - key: WEBHOOK_SECRET
-            value: "42069"
+            value: WEBHOOK_SECRET_HERE
           - key: WEBHOOK_URL
-            value: "https://leverage-per-sl.onrender.com"
+            value: WEBHOOK_URL_HERE
