@@ -1,0 +1,14 @@
+services:
+    - type: web
+      name: leverage-per-sl
+      env: python
+      plan: free
+      buildCommand: ""
+      startCommand: python bot.py
+      envVars:
+          - key: BOT_TOKEN
+            value: 8112409738:AAFVnF5yYvvrTdQaF-6PMuliPrjV2a8WbSA
+          - key: WEBHOOK_SECRET
+            value: "42069"
+          - key: WEBHOOK_URL
+            value: "https://leverage-per-sl.onrender.com"
