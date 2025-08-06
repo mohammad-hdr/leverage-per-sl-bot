@@ -348,5 +348,5 @@ def setup_webhook():
 # Initialize webhook on startup
 if __name__ == "__main__":
     setup_webhook()
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 10000))
     app.run(debug=Config.DEBUG, host="0.0.0.0", port=port)
